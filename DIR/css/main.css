@@ -1,4 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2:500&display=swap rel="stylesheet');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2:500&display=swap rel="stylesheet');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Ubuntu&display=swap");
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Baloo Thambi 2', cursive; }
+  color: #4d4848;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.5;
+  background: #ffffff;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  margin: 0; }
+  body img {
+    max-width: 100%; }
+
+h1, h2, p {
+  margin-top: 0;
+  margin-bottom: 1em; }
+
+h1 {
+  color: #59c5f0;
+  line-height: 1;
+  font-size: 3rem; }
+  h1 span {
+    display: block;
+    letter-spacing: 0.15em;
+    font-size: 5.5rem;
+    color: #a7a7a7;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: "Baloo Thambi 2", cursive; }
+
+h2 {
+  letter-spacing: 0.15em;
+  font-size: 2rem;
+  color: #a7a7a7;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Baloo Thambi 2", cursive; }
+
+p {
+  font-size: 1rem; }
+
+.content-welcome {
+  display: flex; }
+
+.content {
+  background-image: url(../img/burger-center.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  text-align: center;
+  opacity: 1;
+  z-index: -1; }
+  .content h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8rem;
+    color: #e9c9c9;
+    line-height: 1.9;
+    text-align: center;
+    font-weight: 300; }
+  .content p {
+    padding: 1em;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 1.6rem;
+    border: 1px solid white; }
+
+.content-right img,
+.content-left img {
+  object-fit: cover;
+  min-height: 100%;
+  min-width: 100%; }
+
+.hero {
+  background-image: url(../img/burger-3.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .hero h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8rem;
+    color: #664d4d;
+    line-height: 1.9;
+    text-align: center;
+    font-weight: 300; }
+    .hero h1 span {
+      color: #59c5f0;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 15px;
+      font-size: 6rem;
+      display: block; }
+    .hero h1::before, .hero h1::after {
+      content: '';
+      width: 50%;
+      height: 2px;
+      background: wheat;
+      display: block;
+      margin: 0 auto; }
+    .hero h1::before {
+      margin: 1 auto 2em; }
+    .hero h1::after {
+      margin: 1em auto 0;
+      width: 80%; }
+  .hero .overlay {
+    background-color: rgba(250, 215, 215, 0.5);
+    padding: 1em;
+    border-radius: 70%;
+    margin: 2px; }

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2:500&display=swap rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Ubuntu&display=swap');
+
+
+$ff-s: 'Baloo Thambi 2', cursive;
+$ff-body: 'Ubuntu', sans-serif;
+$letter-space: 15px;
+$fw-n: 400;
+$fw-b: 800;
+
+@mixin  sans-sarif($fs, $L-s: .15em, $color: $gray, $tt: uppercase, $lh: 1) {
+letter-spacing: $L-s;
+font-size: $fs;
+color: $color;
+text-transform:  $tt;
+line-height: $lh;    
+font-family: $ff-s;
+}

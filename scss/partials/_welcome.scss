@@ -1,0 +1,60 @@
+.hero {
+background-image: url(../img/burger-3.jpeg);
+height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+
+h1 {
+    font-family: 'Anton', sans-serif;
+     font-size: 1.8rem;
+     color: rgb(102, 77, 77);
+     line-height: 1.9;
+     text-align: center;
+     font-weight: 300;
+     
+span {
+    color:$accent;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: $letter-space;
+    font-size: 6rem;
+    display: block;
+}
+
+&::before,
+&::after
+{
+    content: '';
+    width: 50%;
+    height: 2px;
+    background: wheat;
+    display: block;
+    margin: 0 auto;
+}
+&::before {
+    margin: 1 auto 2em;
+}
+
+&::after {
+    margin: 1em auto 0;
+    width: 80%;
+}
+
+
+    }
+
+    .overlay {
+        background-color: rgba(250, 215, 215, 0.5);
+        padding: 1em;
+        border-radius: 70%;
+        margin: 2px;
+    }
+    
+}
+
+
+
+

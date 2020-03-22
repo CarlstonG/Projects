@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
   },
   "devDependencies": {},
   "scripts": {
-    "sass": "node-sass -w scss/ -o DIR/css/ --recursive"
+    "sass": "node-sass -w scss/ -o DIR/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Carlston G",
   "license": "MIT"
