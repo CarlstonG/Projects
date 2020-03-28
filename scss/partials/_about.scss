@@ -1,0 +1,51 @@
+.about-us {
+    background-image: url(../img/burger-right.jpeg);
+    display: grid;
+    grid-template-rows: 1fr;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    padding: 2em;
+    text-align: center;
+    opacity: 1;
+    z-index: -1;
+
+h1 {
+    padding: 1em;
+    color: $accent;
+    background: black;
+    border-radius: 1%;
+    opacity: 0.5;
+}
+
+
+
+    h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 1.8rem;
+        color: rgb(12, 9, 9);
+        line-height: 1.9;
+        text-align: center;
+        font-weight: 300;
+
+
+}
+
+p {
+   
+    color: $black;
+    font-size: 1.2em;
+
+
+}
+
+p:hover {
+    border: 2px solid white;
+
+
+}
+
+
+
+}

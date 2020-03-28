@@ -1,3 +1,32 @@
 @import 'base';
 @import 'content';
 @import 'welcome';
+@import 'about';
+
+@keyframes moveToleft {
+    // start from right
+     0% {
+         transform: translateX(120px);
+    //blurred first
+         opacity: 0;
+     }
+     // ends to left
+     100% {
+         transform: translateX(0);
+ 
+         opacity: 1;
+     }
+ }
+ 
+ @keyframes moveToRight {
+ //from left
+ 0% {
+     transform: translateY(200px);
+     opacity: 0;
+ }
+ 100% {
+     transform: translateY(0);
+     opacity: 1;
+ }
+ 
+ }

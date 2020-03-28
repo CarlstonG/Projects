@@ -11,7 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "sass": "node-sass -w scss/ -o DIR/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d DIR"
   },
   "author": "Carlston G",
   "license": "MIT"

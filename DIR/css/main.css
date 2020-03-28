@@ -95,13 +95,17 @@ p {
     color: #664d4d;
     line-height: 1.9;
     text-align: center;
-    font-weight: 300; }
+    font-weight: 300;
+    animation: moveToleft;
+    animation-duration: 1.3s; }
     .hero h1 span {
       color: #59c5f0;
       font-family: 'Anton', sans-serif;
       letter-spacing: 15px;
       font-size: 6rem;
-      display: block; }
+      display: block;
+      animation: moveToRight;
+      animation-duration: 1.3s; }
     .hero h1::before, .hero h1::after {
       content: '';
       width: 50%;
@@ -119,3 +123,81 @@ p {
     padding: 1em;
     border-radius: 70%;
     margin: 2px; }
+
+.about-us {
+  background-image: url(../img/burger-right.jpeg);
+  display: grid;
+  grid-template-rows: 1fr;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  padding: 2em;
+  text-align: center;
+  opacity: 1;
+  z-index: -1; }
+  .about-us h1 {
+    padding: 1em;
+    color: #59c5f0;
+    background: black;
+    border-radius: 1%;
+    opacity: 0.5; }
+  .about-us h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8rem;
+    color: #0c0909;
+    line-height: 1.9;
+    text-align: center;
+    font-weight: 300; }
+  .about-us p {
+    color: #080808;
+    font-size: 1.2em; }
+  .about-us p:hover {
+    border: 2px solid white; }
+
+@keyframes moveToleft {
+  0% {
+    transform: translateX(120px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes moveToRight {
+  0% {
+    transform: translateY(200px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+.about-us {
+  background-image: url(../img/burger-right.jpeg);
+  display: grid;
+  grid-template-rows: 1fr;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  padding: 2em;
+  text-align: center;
+  opacity: 1;
+  z-index: -1; }
+  .about-us h1 {
+    padding: 1em;
+    color: #59c5f0;
+    background: black;
+    border-radius: 1%;
+    opacity: 0.5; }
+  .about-us h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8rem;
+    color: #0c0909;
+    line-height: 1.9;
+    text-align: center;
+    font-weight: 300; }
+  .about-us p {
+    color: #080808;
+    font-size: 1.2em; }
+  .about-us p:hover {
+    border: 2px solid white; }
