@@ -181,12 +181,12 @@ p {
     .footer .container p {
       color: #0f0f0f;
       margin-top: 2em;
-      font-family: "Baloo Thambi 2", cursive;
+      font-family: "Ubuntu", sans-serif;
       font-size: 1em;
       justify-content: center;
       align-items: center;
       text-align: center;
-      font-size: 18px; }
+      font-size: 20px; }
 
 @keyframes moveToleft {
   0% {
@@ -234,3 +234,36 @@ p {
     font-size: 1.2em; }
   .about-us p:hover {
     border: 2px solid white; }
+
+.footer {
+  position: relative; }
+  .footer .container {
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    justify-content: center;
+    align-items: center; }
+    .footer .container ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      .footer .container ul li {
+        text-decoration: none;
+        border-spacing: 2rem;
+        margin-right: 2em; }
+        .footer .container ul li a {
+          text-decoration: none;
+          color: black; }
+        .footer .container ul li a:hover {
+          color: #04b2f7; }
+    .footer .container p {
+      color: #0f0f0f;
+      margin-top: 2em;
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1em;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 20px; }
