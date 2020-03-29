@@ -1,0 +1,49 @@
+.footer {
+    position: relative;
+    .container {
+    
+        display: inline;
+        padding: 1em;
+        margin: 1em;
+        justify-content: center;
+        align-items: center;
+       
+     ul {
+         list-style-type: none;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+     
+     
+         li {
+            text-decoration: none;
+            border-spacing: 2rem;
+            margin-right: 2em;
+                 a {
+                     text-decoration: none;
+                     color: black;
+                 }   
+     
+                 a:hover {
+                     color: rgb(4, 178, 247);
+                 }
+     
+         }
+     }
+     
+     p {
+         color: rgb(15, 15, 15);
+         margin-top: 2em;
+         font-family: $ff-s;
+         font-size: 1em;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         font-size: 18px;
+     }
+     
+     }
+}
+
+
