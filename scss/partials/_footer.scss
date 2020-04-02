@@ -1,5 +1,11 @@
 .footer {
-    position: relative;
+        
+        position: relative;
+        margin-bottom: 0;
+        padding: 1em;
+        font-family: $roboto;
+        background: gray;
+
     .container {
     
         display: inline;
@@ -34,11 +40,10 @@
      
      p {
          color: rgb(15, 15, 15);
-         margin-top: 2em;
+         margin-top: 1em;
          font-family: $ff-body;
          font-size: 1em;
          justify-content: center;
-         align-items: center;
          text-align: center;
          font-size: 20px;
      }
@@ -46,4 +51,46 @@
      }
 }
 
+//contact form
 
+
+.contact-us {
+    font-family: $roboto;
+    position: relative;
+    display: flexbox;
+    flex-direction: row;
+    padding: 1em;
+    margin: 1em;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contact-form {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields, 
+.msg {
+    width: 48%;
+}
+
+.input-fields .input, 
+.msg textarea 
+{
+margin:  10px 0;
+background: transparent;
+border: 0;
+border-bottom: 2px solid gray;
+}
