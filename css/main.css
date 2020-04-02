@@ -156,7 +156,11 @@ p {
     border: 2px solid white; }
 
 .footer {
-  position: relative; }
+  position: relative;
+  margin-bottom: 0;
+  padding: 1em;
+  font-family: "Roboto", sans-serif;
+  background: gray; }
   .footer .container {
     display: inline;
     padding: 1em;
@@ -180,13 +184,46 @@ p {
           color: #04b2f7; }
     .footer .container p {
       color: #0f0f0f;
-      margin-top: 2em;
-      font-family: "Baloo Thambi 2", cursive;
+      margin-top: 1em;
+      font-family: "Ubuntu", sans-serif;
       font-size: 1em;
       justify-content: center;
-      align-items: center;
       text-align: center;
-      font-size: 18px; }
+      font-size: 20px; }
+
+.contact-us {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  display: flexbox;
+  flex-direction: row;
+  padding: 1em;
+  margin: 1em;
+  justify-content: center;
+  text-align: center; }
+
+.contact-form {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px; }
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%; }
+
+.input-fields,
+.msg {
+  width: 48%; }
+
+.input-fields .input,
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid gray; }
 
 @keyframes moveToleft {
   0% {
@@ -234,3 +271,73 @@ p {
     font-size: 1.2em; }
   .about-us p:hover {
     border: 2px solid white; }
+
+.footer {
+  position: relative;
+  margin-bottom: 0;
+  padding: 1em;
+  font-family: "Roboto", sans-serif;
+  background: gray; }
+  .footer .container {
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    justify-content: center;
+    align-items: center; }
+    .footer .container ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      .footer .container ul li {
+        text-decoration: none;
+        border-spacing: 2rem;
+        margin-right: 2em; }
+        .footer .container ul li a {
+          text-decoration: none;
+          color: black; }
+        .footer .container ul li a:hover {
+          color: #04b2f7; }
+    .footer .container p {
+      color: #0f0f0f;
+      margin-top: 1em;
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1em;
+      justify-content: center;
+      text-align: center;
+      font-size: 20px; }
+
+.contact-us {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  display: flexbox;
+  flex-direction: row;
+  padding: 1em;
+  margin: 1em;
+  justify-content: center;
+  text-align: center; }
+
+.contact-form {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px; }
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%; }
+
+.input-fields,
+.msg {
+  width: 48%; }
+
+.input-fields .input,
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid gray; }
